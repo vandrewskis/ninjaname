@@ -1,6 +1,7 @@
+var ninjacode = ['ki', 'lu', 'chi', 'zu', 'ke', 'ru', 'ji', 'to', 'me', 'zi', 'shi', 'no', 'ta', 'chi', 'zu', 'ta', 'ari', 'rin', 'no', 'shi', 'ga', 'mei', 'ku', 'te', 'fu', 'yo'];
+
 function ninjaname(name) {
     var ninjaname = "";
-    var ninjacode = ['ki', 'lu', 'chi', 'zu', 'ke', 'ru', 'ji', 'to', 'me', 'zi', 'shi', 'no', 'ta', 'chi', 'zu', 'ta', 'ari', 'rin', 'no', 'shi', 'ga', 'mei', 'ku', 'te', 'fu', 'yo'];
 
     for (i = 0; i < name.length; i++) {
         var n = name.charCodeAt(i);
